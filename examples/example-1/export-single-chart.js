@@ -3,17 +3,18 @@ const {
     ExportManager,
     ExportConfig
 } = require('fusionexport-node-client');
+const path = require('path');
 
 // Instantiate ExportConfig and ExportManager
 const exportConfig = new ExportConfig();
 const exportManager = new ExportManager();
-let template;
+let templatePath;
 
 // Create a simple HTML to export
-template = '<h1>Hello world</h2>';
+templatePath = path.join(__dirname, 'template.html');
 
 // Set all the configurations
-exportConfig.set('template', template);
+exportConfig.set('templateFilePath', templatePath);
 exportConfig.set('type', 'pdf');
 exportConfig.set('templateFormat', 'a4');
 exportConfig.set('asyncCapture', true);
