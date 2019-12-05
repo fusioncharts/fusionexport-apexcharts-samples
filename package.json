@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/niharsawant/fusionexport-apexcharts-samples/issues"
   },
-  "homepage": "https://github.com/niharsawant/fusionexport-apexcharts-samples#readme"
+  "homepage": "https://github.com/niharsawant/fusionexport-apexcharts-samples#readme",
+  "dependencies": {
+    "fusionexport-node-client": "^1.2.0"
+  }
 }
