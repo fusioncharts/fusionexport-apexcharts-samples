@@ -18,6 +18,7 @@ exportConfig.set('templateFilePath', templatePath);
 exportConfig.set('type', 'pdf');
 exportConfig.set('templateFormat', 'a4');
 exportConfig.set('asyncCapture', true);
+exportConfig.set('maxWaitForCaptureExit', 2000);
 
 // Let's export!
 exportManager.export(exportConfig, outputDir = '.', unzip = true).then((exportedFiles) => {
