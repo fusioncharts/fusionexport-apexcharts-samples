@@ -62,3 +62,9 @@ typings/
 
 # Visual studio workspace files
 *.code-workspace
+
+# Python virutalenv directory
+bin
+include
+lib
+.Python
