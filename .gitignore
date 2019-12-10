@@ -68,3 +68,6 @@ bin
 include
 lib
 .Python
+
+# Project related configs
+export.pdf
