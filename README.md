@@ -39,7 +39,7 @@ python examples/example-1/export_single_chart.py
 
 ## Java
 
-To run Java example, create a gradle project and install all the dependencies. Once dependencies are installed, run the `script.java` file.
+To run Java example, create a gradle project and install all the dependencies. Once dependencies are installed, run the `example_1.java` file as Java application
 
 ------
 That's it! If you need any help feel free to reach out to [support@fusioncharts.com](mailto:support@fusioncharts.com) or submit an issue. We are more than happy to help you.
