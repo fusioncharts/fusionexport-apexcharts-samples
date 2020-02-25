@@ -140,6 +140,12 @@ local.properties
 
 .sts4-cache/
 
+# Ignore Gradle project-specific cache directory
+.gradle
+
+# Ignore Gradle build output directory
+build
+
 ### Gradle ###
 .gradle
 build/
