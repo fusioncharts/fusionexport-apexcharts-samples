@@ -42,7 +42,7 @@ python examples/example-1/export_single_chart.py
 To run Java example, create a gradle project and install all the dependencies. Once dependencies are installed, run the `example_1.java` file as Java application.
 
 ## PHP
-To run PHP example, install composer and all the dependencies. Once everything is insatlled and fusionexport server is running, pick any example and run it:
+To run PHP example, install composer and all the dependencies. Once everything is installed and fusionexport server is running, pick any example and run it:
 ```bash
 php example_1.php
 ```
