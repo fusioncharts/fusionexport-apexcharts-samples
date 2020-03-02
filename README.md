@@ -39,7 +39,13 @@ python examples/example-1/export_single_chart.py
 
 ## Java
 
-To run Java example, create a gradle project and install all the dependencies. Once dependencies are installed, run the `example_1.java` file as Java application
+To run Java example, create a gradle project and install all the dependencies. Once dependencies are installed, run the `example_1.java` file as Java application.
+
+## PHP
+To run PHP example, install composer and all the dependencies. Once everything is insatlled and fusionexport server is running, pick any example and run it:
+```bash
+php example_1.php
+```
 
 ------
 That's it! If you need any help feel free to reach out to [support@fusioncharts.com](mailto:support@fusioncharts.com) or submit an issue. We are more than happy to help you.
